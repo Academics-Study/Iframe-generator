@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home | Schoology</title>
+    <link rel="icon" href="https://newarkcharter.schoology.com/sites/all/themes/schoology_theme/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body { 
+         background-color: #fff;
+      background-image: url('background.png');
+           background-repeat: no-repeat;
+         background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  
+    <div id="header">      
+        <input type="text" id="address-bar" placeholder="Enter URL (Don't include https://)">
+      
+        <button id="go-button">Go</button>
+      
+      <button id="fullscreen-button" onclick="makeFullScreen()">Full Screen</button>
+    </div>
+  
+    <div id="content">
+        <iframe  id="browser-frame" allowfullscreen></iframe>
+    </div>
+  
+
+    <script src="script.js"></script>
+</body>
+</html>
